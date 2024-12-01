@@ -4,13 +4,12 @@ using namespace std;
 //         0 1
 //         1 0 1
 //         0 1 0 1
-//         1 0 1 0 1
-
+//         1 0 1 0 1 
 void print(int n){
     for(int i=0;i<n;i++){
         int prev=(i%2==0)?1:0;
         for(int j=0;j<i+1;j++){
-            cout<<prev;
+            cout<<prev<<" ";
             prev=1-prev;
         }
         cout<<endl;
