@@ -1,2 +1,5 @@
 .vscode/
 a.exe
+a.out
+.replit
+.ccls-cache/
